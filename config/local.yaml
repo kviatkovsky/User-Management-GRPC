@@ -1,0 +1,10 @@
+env: "local" #dev, prod
+grpc:
+  port: 8080
+postgresql:
+  host: "umgrpc-db-1"
+  port: "5432"
+  username: "root"
+  password: "root"
+  database: "grpc"
+  attempts: 3
